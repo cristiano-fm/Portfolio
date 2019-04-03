@@ -1,0 +1,95 @@
+$color1: #151316;
+$color2: #4B3954;
+$color3: #707070;
+$color4: #7939D9;
+
+body{
+    background-color: $color1;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#start{
+    display: block; 
+    height: 95vh;
+    width: 95vw;
+    margin: 0px;
+    padding: 0px;
+
+    h1{
+        font-size: 50px;
+        height: 110px;
+        width: 220px;
+        padding: 20px;
+        margin: 0px;
+    }
+
+    h2{
+        font-weight: 100;
+        font-size: 16px;
+        height: 70px;
+        width: 100%;
+        padding-left: 22px;
+        margin: 0px;
+    }
+
+    #canvas-loc{
+        width: 100%;
+        height: 50%;
+    }
+
+    img{
+        display: block;
+        margin-left: 20%;
+        margin-right: 20%;
+        width: 30%;
+    }
+
+    div{
+        position: absolute;
+        bottom: 4vh;
+        left: 0px;
+        width: 100%;
+        text-align:center;
+        
+        a{
+            div{
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.imp-but{
+    background-color: $color4;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 4px 15px;
+    border-width: 0px;
+}
+
+span{
+    background-color: rgba(0,0,0,0);
+    border-radius: 100px;
+    padding: 3px 1.5vw 4px 1.5vw;
+    color: white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color:  $color4;
+    margin: 1vw;
+    font-weight: 500;
+}
+
+img{
+    width: 50px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+scroll-behavior: smooth;
+}
