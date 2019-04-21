@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cristiano Matias</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -27,7 +27,7 @@
                 </a>
             <div>
             </div>
-                <a href="#intro">
+                <a href="#anchor1">
                 <span class="imp-but"> EXPLORE </span>
                 </a>
             <div>
@@ -41,113 +41,238 @@
 
     <!--Intro-Section-->
     <section id="intro">
+        <div id="anchor1"></div>
         <h1>INTRODUCTION</h1>
-        <h4>Hi. Welcome to my space.</h4>
-        <p>I'm Cristiano, a front-end web designer and developer, 
-            from Lisbon, Portugal.</p>
-        <p>I am a Web enthusiast, crazy for UI effects, animations 
-            and creating intuitive, dynamic user experiences.</p>
+        <p>Hi! Welcome to my portfolio,</p>
+        <p>My name's Cristiano Matias and I'm a front-end web designer and developer. </p>
+        <p>A web enthusiast, thriving to create more intuitive, dynamic and appealing user experiences.</p>
+        <img src="media/intro.png">
     </section>
 
     <!--Latest-Work-Section-->
-    <section>
+    <section id="latest-work">
         <h1>LATEST WORK</h1>
         <div>
-            <img src="media/placeholder.png">
-            <div>
-                <img src="media/project_smart_home.png">
-                <h5>SmartHome Project</h5>
-                <p>SmartHome was an academic project developed to 
-                    serve as an interface for a SmartHome. The 
-                    interface allows to control home electronics 
-                    and program several routines in the house. The 
-                    display had a fix resolution of 1280x720 pixels.</p>
-                <button> VIEW PAGE </button>
-                <button> VIEW CODE </button>
-            </div>
+            <img id="p1" src="media/p1.png">
+            <p>12<br>18</p>
         </div>
+        <section>
+            <img src="media/project_smart_home.png">
+            <h2>SmartHome Project</h2>
+            <p>SmartHome was an academic project developed to 
+                serve as an interface for a SmartHome. The 
+                interface allows to control home electronics 
+                and program several routines in the house. The 
+                display had a fix resolution of 1280x720 pixels.</p>
+            <a href="https://project-smarthome.ml">
+                <span class="imp-but"> VIEW PAGE </span>
+            </a>
+            <a href="https://github.com/cristiano-fm/SmartHome">
+                <span> VIEW CODE </span>
+            </a>
+        </section>
         <div>
-            <img src="media/placeholder.png">
-            <div>
-                <img src="media/project_bombs.png">
-                <h5>The BOMBS game</h5>
-                <p>BOMBS is a naval battleships game. the website 
-                    consists of several web pages for tutorials, 
-                    team, scores, the game, and more. The game was 
-                    developed with JavaScript and with the jQuery 
-                    library. The final grade of the project was 20/20. </p>
-                <button> VIEW PAGE </button>
-                <button> VIEW CODE </button>
-            </div>
+            <img src="media/p2.png">
+            <p>07<br>18</p>
         </div>
+        <section>
+            <img src="media/project_bombs.png">
+            <h2>The BOMBS game</h2>
+            <p>BOMBS is a naval battleships game. the website 
+                consists of several web pages for tutorials, 
+                team, scores, the game, and more. The game was 
+                developed with JavaScript and with the jQuery 
+                library. The final grade of the project was 20/20. </p>
+            <a href="https://thebombsgame.ml">
+            <span class="imp-but"> VIEW PAGE </span>
+            </a>
+            <a href="https://github.com/cristiano-fm/BOMBS-game">
+            <span> VIEW CODE </span>
+            </a>
+        </section>
         <div>
-            <img src="media/placeholder.png">
-            <div>
-                <img src="media/project_cube.png">
-                <h5>The Cube Quest game</h5>
-                <p>Developed in Unity, the Cube Quest game was a self 
-                    initiative attempt of learning Unity software and 
-                    creating a game with it with the help of tutorials 
-                    and researches. </p>
-                <button> VIEW PAGE </button>
-                <button> VIEW CODE </button>
-            </div>
+            <img src="media/p3.png">
+            <p>05<br>18</p>
         </div>
-        <button> SEE MORE </button>
+        <section>
+            <img src="media/project_cube.png">
+            <h2>The Cube Quest game</h2>
+            <p>Developed in Unity, the Cube Quest game was a self 
+                initiative attempt of learning Unity software and 
+                creating a game with it with the help of tutorials 
+                and researches. </p>
+            <span class="imp-but"> VIEW PAGE </span>
+            <span> VIEW CODE </span>
+        </section>
+        <div>
+            <img src="media/p4.png">
+        </div>
+        <div class="centered-box">
+            <a>
+                <span class="imp-but"> SEE MORE </span>
+            </a>
+        </div>
     </section>
 
     <!--Skills-Section-->
-    <section>
+    <section id="skills">
         <h1>MAIN SKILLS</h1>
             <h3>DESIGNING</h3>
+            <img class="dots" id="dots1" src="media/dots1.png">
             <ul>
-                <li>Adobe PhotoShop</li>
-                <li>Adobe XD</li>
-                <li>Adobe Illustrator</li>
-                <li>Adobe After Effects</li>
+                <li><img src="media/ae.png">Adobe After Effects</li>
+                <li><img src="media/ai.png">Adobe Illustrator</li>
+                <li><img src="media/ps.png">Adobe PhotoShop</li>
+                <li><img src="media/xd.png">Adobe XD</li>
             </ul>
             <h3>CODING</h3>
+            <img class="dots" id="dots2" src="media/dots2.png">
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>JQuery</li>
+                <li><img src="media/ajax.png">AJAX</li>
+                <li><img src="media/css.png">CSS</li>
+                <li><img src="media/html.png">HTML</li>
+                <li><img src="media/js.png">JavaScript</li>
+                <li><img src="media/jquery.png">JQuery</li>
+                <li><img src="media/json.png">JSON</li>
+                <li><img src="media/sass.png">Sass</li>
+                <li><img src="media/php.png">PHP</li>
             </ul>
+            <h3>OTHERS</h3>
+            <img class="dots" id="dots3" src="media/dots3.png">
+            <ul>
+                <li><img src="media/autocad.png">AutoCad</li>
+                <li><img src="media/blender.png">Blender</li>
+                <li><img src="media/java.png">Java</li>
+                <li><img src="media/python.png">Python</li>
+                <li><img src="media/unity.png">Unity</li>
+            </ul>
+            <img id="rocket" src="media/rocket2.png">
     </section>
 
     <!--About-me-Section-->
-    <section>
+    <section id="about">
         <h1>WHO AM I?</h1>
-        <div>
-            <img src="media/profile_pic.jpg">
-            <p>I'm 19 years old and currently still finishing university.
-                I started doing web development ever since I started
-                Web Design enthusiast, proficient in Adobe PhotoShop,
-                CSS, HTML, JavaScript (ADD MORE). </p>
-            <p>Always motivated, creative and detail oriented. (CHANGE)</p>
+        <img src="media/profile_pic.jpg">
+        <p>I'm 19 years old from Lisbon, Portugal. I'm currently 
+            finishing a ICT course at Lisbon's University.</p>
+        <p>As someone with a strong artistic sense and who at the 
+            same time lives for technology and science, web 
+            development gives me the freedom to create all the 
+            worlds within my imagination and to share my vision 
+        </p>
+        <p id="white-space1">Always motivated, self-driven and detail oriented.</p>
+        <div class="centered-box">
+            <a>
+                <span class="imp-but"> CURRICULUM </span>
+            </a>
         </div>
-        <button> DOWNLOAD CURRICULUM </button>
-        <button> CONTACT </button>
+        <div class="centered-box">
+            <a>
+                <span> CONTACT </span>
+            </a>
+        </div>
     </section>
 
     <footer>
-        <p>created by Cristiano Matias</p>
-        <a href="https://www.linkedin.com/in/cristiano-matias-319b62164/">
-            <img src="media/linkedin.png">
-        </a>
-        <a href="https://mail.google.com/">
-            <img src="media/email.png">
-        </a>
-        <a href="https://github.com/cristiano-fm">
-            <img src="media/github-logo.png">
-        </a>
-        <a href="https://dribbble.com/cristianomatias">
-            <img src="media/dribbble.png">
-        </a>
-        <p>Copyright &copy All rights reserved</p>
+        <img id="footer-bg" src="media/footer_bg.png">
+        <div>
+            <a href="https://www.linkedin.com/in/cristiano-matias-319b62164/">
+                <img src="media/linkedin.png">
+            </a>
+            <a href="https://mail.google.com/">
+                <img src="media/email.png">
+            </a>
+            <a href="https://github.com/cristiano-fm">
+                <img src="media/github-logo.png">
+            </a>
+            <a href="https://dribbble.com/cristianomatias">
+                <img src="media/dribbble.png">
+            </a>
+            <p>Created by Cristiano Matias - Copyright &copy All rights reserved</p>
+        </div>
+        <img id="footer-bar" src="media/footer_bar.png">
     </footer>
 
     <script src="js/three.js"></script>
-	<script src="js/draw.js"></script>
+    <script src="js/GLTFLoader.js"></script>
+    <script>    
+        var renderer = new THREE.WebGLRenderer({canvas: document.getElementById("landing-canvas"), antialias: true});
+        renderer.setClearColor(0x151316);
+        renderer.setPixelRatio(window.devicePixelRatio);
+        container = document.getElementById('canvas-loc');
+        renderer.setSize($(container).width(), $(container).height());
+        container.appendChild(renderer.domElement);
+
+        var camera = new THREE.PerspectiveCamera( 50, $(container).width()/$(container).height(), 0.1, 3000 );
+        camera.position.z = 25;
+        camera.position.x = -3.5;
+        camera.position.y = -1;
+
+        var scene = new THREE.Scene();
+
+        //resizing rendering while resizing page
+        window.addEventListener( 'resize', function () {
+        var width = $(container).width();
+        var height = $(container).height();
+        renderer.setSize( width, height );
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+        } );
+
+        //------------------planets---------------------//
+        var loader = new THREE.GLTFLoader();
+        loader.load('js/planet.glb', handle_load);
+
+        var mesh;
+
+        function handle_load(gltf){
+        mesh = gltf.scene.children[0];
+        scene.add(mesh);
+        mesh.material = new THREE.MeshLambertMaterial();
+        }
+
+        var geometry = new THREE.TorusGeometry( 13, 0.2, 10, 100 );
+        var material = new THREE.MeshLambertMaterial();
+        var ring1 = new THREE.Mesh( geometry, material );
+        ring1.rotation.y = 0.4;
+        ring1.rotation.x = 1.65;
+        scene.add( ring1 );
+
+        var geometry2 = new THREE.TorusGeometry( 11, 0.1, 10, 100 );
+        var material2 = new THREE.MeshLambertMaterial();
+        var ring2 = new THREE.Mesh( geometry2, material2 );
+        ring2.rotation.y = -0.5;
+        ring2.rotation.x = 1.58;
+        scene.add( ring2 );
+
+        var ringOrbit = new THREE.Object3D();
+        ringOrbit.add(ring1);
+        ringOrbit.add(ring2);
+        scene.add( ringOrbit );
+
+        //---------------------illumination-----------------------//
+        var ambientLight = new THREE.AmbientLight( 0xFFFFFFF, 1);
+        scene.add( ambientLight );
+
+        var directLight = new THREE.PointLight( 0xFFFFFF, 1);
+        scene.add( directLight );
+
+        renderer.shadowMap.enabled = true;
+        renderer.shadowMap.type = THREE.PCFShadowMap;
+
+        var x = 0;
+        var update = function () {
+            mesh.rotation.y += 0.003;
+        }
+
+        var animate = function () {
+            requestAnimationFrame( animate );
+
+        update();
+            renderer.render( scene, camera );
+        };
+
+        animate(); 
+    </script>
 </body>
 </html>

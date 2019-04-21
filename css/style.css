@@ -2,12 +2,14 @@ body {
   background-color: #151316;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
 }
 
 #start {
   display: block;
-  height: 95vh;
-  width: 95vw;
+  height: 100vh;
+  width: 100vw;
   margin: 0px;
   padding: 0px;
 }
@@ -23,22 +25,15 @@ body {
 #start h2 {
   font-weight: 100;
   font-size: 16px;
-  height: 70px;
+  margin: 0px 0px 20px 0px;
   width: 100%;
   padding-left: 22px;
-  margin: 0px;
 }
 
 #start #canvas-loc {
+  margin-left: 20vw;
   width: 100%;
-  height: 50%;
-}
-
-#start img {
-  display: block;
-  margin-left: 20%;
-  margin-right: 20%;
-  width: 30%;
+  height: 60%;
 }
 
 #start div {
@@ -53,13 +48,234 @@ body {
   display: inline-block;
 }
 
+#intro {
+  display: block;
+  height: 95vh;
+  width: 80vw;
+  margin: 20px 0px;
+  padding: 10vw;
+}
+
+#intro p {
+  margin: 20px 0px;
+}
+
+#intro img {
+  width: 100%;
+  margin-top: -180px;
+}
+
+#latest-work {
+  display: block;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+#latest-work h1 {
+  margin-left: 10vw;
+}
+
+#latest-work div {
+  margin: 0;
+  padding: 0;
+}
+
+#latest-work div p {
+  color: #565557;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: -40px;
+}
+
+#latest-work div #p1 {
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+#latest-work div img {
+  height: 190px;
+  display: block;
+  margin: auto;
+}
+
+#latest-work section {
+  margin-top: -14px;
+  background-color: #3B393C;
+}
+
+#latest-work section img {
+  width: 100vw;
+  display: block;
+  margin: auto;
+}
+
+#latest-work section h2 {
+  margin: 12px 10vw;
+  font-style: italic;
+  font-weight: 400;
+}
+
+#latest-work section p {
+  margin: auto 10vw;
+  font-size: 13px;
+}
+
+#latest-work section span {
+  display: inline-block;
+  font-size: 0.9em !important;
+  margin: 18px 2vw;
+  padding: 3px 2vw 4px 2vw;
+}
+
+#latest-work section .imp-but {
+  margin-left: 10vw;
+}
+
+#skills {
+  display: block;
+  height: 110vh;
+  width: 80vw;
+  margin: 20px 0px;
+  padding: 10vw;
+}
+
+#skills h1 {
+  margin-bottom: 40px;
+}
+
+.dots {
+  position: absolute;
+  margin-top: -18px;
+  opacity: 0.4;
+}
+
+#dots1 {
+  width: 75%;
+}
+
+#dots2 {
+  width: 68%;
+}
+
+#dots3 {
+  width: 68%;
+}
+
+#rocket {
+  height: 400px;
+  display: block;
+  position: absolute;
+  right: -10px;
+  margin-top: -410px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+ul li {
+  padding-top: 5px;
+}
+
+ul img {
+  display: inline-block;
+  padding-right: 7px;
+  height: 20px;
+  width: 20px;
+  margin-bottom: -4px;
+}
+
+#about {
+  display: block;
+  height: 105vh;
+  width: 80vw;
+  margin: 20px 0px;
+  padding: 10vw;
+}
+
+#about img {
+  display: block;
+  height: 120px;
+  border-radius: 100%;
+  margin: 15% auto 12% auto;
+}
+
+#about p {
+  margin: 20px 0px;
+}
+
+#about div {
+  margin-top: 8%;
+}
+
+#white-space1 {
+  margin-bottom: 35% !important;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+footer div {
+  position: relative;
+  top: 120px;
+  text-align: center;
+  z-index: 10;
+}
+
+footer div img {
+  display: inline-block;
+  height: 40px;
+  margin: 1vw;
+}
+
+footer div p {
+  font-size: 10px;
+  color: #565557;
+  margin: 10px;
+}
+
+footer #footer-bar {
+  position: relative;
+  top: 10px;
+  height: 110px;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+footer #footer-bg {
+  top: 10px;
+  width: 100vw;
+  margin-bottom: -140px;
+  padding: 0;
+  z-index: 1;
+}
+
 .imp-but {
+  z-index: 1;
   background-color: #7939D9;
   color: white;
   font-weight: bold;
   font-size: 1.3em;
   padding: 4px 15px;
   border-width: 0px;
+}
+
+.centered-box {
+  width: 100%;
+  text-align: center;
+}
+
+.centered-box a {
+  display: inline-block;
 }
 
 span {
@@ -74,13 +290,10 @@ span {
   font-weight: 500;
 }
 
-img {
-  width: 50px;
-}
-
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 html {
