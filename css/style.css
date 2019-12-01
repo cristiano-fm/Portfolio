@@ -1,5 +1,5 @@
 body {
-  background-color: #151316;
+  background-color: #181314;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   overflow-x: hidden;
@@ -31,9 +31,8 @@ body {
 }
 
 #start #canvas-loc {
-  margin-left: 20vw;
-  width: 100%;
-  height: 60%;
+  margin-left: 27vw;
+  height: 45%;
 }
 
 #start div {
@@ -48,99 +47,60 @@ body {
   display: inline-block;
 }
 
+#fst-btn {
+  display: none;
+}
+
+#trd-btn {
+  display: none;
+}
+
 #intro {
   display: block;
-  height: 95vh;
+  height: 550px;
   width: 80vw;
-  margin: 20px 0px;
-  padding: 10vw;
+  margin: 0px;
+  padding: 47px 10vw;
+}
+
+#intro h1 {
+  margin-top: 10px;
+}
+
+#intro img {
+  position: absolute;
+  right: 10vw;
+  height: 70px;
+  border-radius: 100%;
+  margin-top: -70px;
 }
 
 #intro p {
   margin: 20px 0px;
+  font-size: 17px;
 }
 
-#intro img {
+#intro div {
   width: 100%;
-  margin-top: -180px;
-}
-
-#latest-work {
-  display: block;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-}
-
-#latest-work h1 {
-  margin-left: 10vw;
-}
-
-#latest-work div {
-  margin: 0;
-  padding: 0;
-}
-
-#latest-work div p {
-  color: #565557;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 17px;
   text-align: center;
-  margin-top: -40px;
+  margin-top: 5px;
 }
 
-#latest-work div #p1 {
-  height: 150px;
-  display: block;
-  margin: auto;
-}
-
-#latest-work div img {
-  height: 190px;
-  display: block;
-  margin: auto;
-}
-
-#latest-work section {
-  margin-top: -14px;
-  background-color: #3B393C;
-}
-
-#latest-work section img {
-  width: 100vw;
-  display: block;
-  margin: auto;
-}
-
-#latest-work section h2 {
-  margin: 12px 10vw;
-  font-style: italic;
-  font-weight: 400;
-}
-
-#latest-work section p {
-  margin: auto 10vw;
-  font-size: 13px;
-}
-
-#latest-work section span {
+#intro div span {
   display: inline-block;
-  font-size: 0.9em !important;
-  margin: 18px 2vw;
-  padding: 3px 2vw 4px 2vw;
+  padding: 3px 5vw 4px 5vw;
 }
 
-#latest-work section .imp-but {
-  margin-left: 10vw;
+#intro #top-btn {
+  margin-top: 40px;
 }
 
 #skills {
   display: block;
-  height: 110vh;
+  height: 850px;
   width: 80vw;
-  margin: 20px 0px;
-  padding: 10vw;
+  margin: 0px;
+  padding: 20px 10vw 50px 10vw;
 }
 
 #skills h1 {
@@ -170,7 +130,7 @@ body {
   display: block;
   position: absolute;
   right: -10px;
-  margin-top: -410px;
+  margin-top: -500px;
 }
 
 ul {
@@ -180,6 +140,7 @@ ul {
 
 ul li {
   padding-top: 5px;
+  font-size: 17px;
 }
 
 ul img {
@@ -190,43 +151,179 @@ ul img {
   margin-bottom: -4px;
 }
 
-#about {
+#projects {
   display: block;
-  height: 105vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+#projects h1 {
+  margin-left: 10vw;
+  margin-bottom: 0;
+}
+
+#projects div {
+  margin: 0;
+  padding: 0;
+}
+
+#projects div p {
+  color: #565557;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: -40px;
+}
+
+#projects div img {
+  height: 190px;
+  display: block;
+  margin: auto;
+}
+
+#projects div .path-zone {
+  position: relative;
+}
+
+#projects div .planet-path {
+  margin-bottom: -65px;
+}
+
+#projects div .bg-path {
+  height: 190px;
+  position: absolute;
+  z-index: -2;
+  left: 50vw;
+}
+
+#projects section {
+  margin-top: -14px;
+  background-color: #3B393C;
+}
+
+#projects section img {
+  width: 100vw;
+  display: block;
+  margin: auto;
+}
+
+#projects section h2 {
+  margin: 12px 10vw;
+  font-style: italic;
+  font-weight: 400;
+}
+
+#projects section p {
+  margin: auto 10vw;
+  font-size: 16px;
+}
+
+#projects section span {
+  display: inline-block;
+  font-size: 0.9em !important;
+  margin: 18px 2vw;
+  padding: 3px 2vw 4px 2vw;
+}
+
+#projects section .left-but {
+  margin-left: 10vw;
+}
+
+#portfolio-end {
+  display: block;
+  width: 100vw;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+#footer-bg-planet {
+  position: absolute;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+}
+
+#contact {
+  height: 530px;
   width: 80vw;
-  margin: 20px 0px;
-  padding: 10vw;
+  margin: 45px 0 -15px 0;
+  padding: 0 10vw 47px 10vw;
+  background-color: white;
 }
 
-#about img {
+#contact h1 {
+  color: black;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+#contact p {
+  color: black;
+  margin-bottom: 30px;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+form div {
+  background-color: #D1D1D1;
+  margin: 10px 0;
+  padding: 8px 4%;
   display: block;
-  height: 120px;
-  border-radius: 100%;
-  margin: 15% auto 12% auto;
+  width: 92%;
 }
 
-#about p {
-  margin: 20px 0px;
+form .big-field {
+  height: 150px;
 }
 
-#about div {
-  margin-top: 8%;
+form input, form textarea {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 0px solid;
+  height: 20px;
+  width: 70%;
+  float: right;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#white-space1 {
-  margin-bottom: 35% !important;
+form input:focus, form textarea:focus {
+  outline: none;
+}
+
+form label {
+  -webkit-appearance: none;
+  color: black;
+  font-style: italic;
+  font-size: 17px;
+}
+
+form span {
+  display: block;
+  width: 100% !important;
+  text-align: center;
+  margin: 15px 0;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 footer {
   margin: 0;
   padding: 0;
+  text-align: center;
+  background-color: white;
 }
 
 footer div {
-  position: relative;
-  top: 120px;
-  text-align: center;
-  z-index: 10;
+  width: 100vw;
+  height: 60px;
 }
 
 footer div img {
@@ -235,38 +332,14 @@ footer div img {
   margin: 1vw;
 }
 
-footer div p {
-  font-size: 10px;
+footer p {
+  font-size: 16px;
   color: #565557;
-  margin: 10px;
+  margin: 10px 0;
 }
 
-footer #footer-bar {
-  position: relative;
-  top: 10px;
-  height: 110px;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-  z-index: 2;
-}
-
-footer #footer-bg {
-  top: 10px;
-  width: 100vw;
-  margin-bottom: -140px;
-  padding: 0;
-  z-index: 1;
-}
-
-.imp-but {
-  z-index: 1;
-  background-color: #7939D9;
-  color: white;
-  font-weight: bold;
-  font-size: 1.3em;
-  padding: 4px 15px;
-  border-width: 0px;
+footer #small-info {
+  font-size: 12px;
 }
 
 .centered-box {
@@ -279,15 +352,15 @@ footer #footer-bg {
 }
 
 span {
-  background-color: rgba(0, 0, 0, 0);
+  z-index: 1;
+  background-color: #7939D9;
   border-radius: 100px;
-  padding: 3px 1.5vw 4px 1.5vw;
+  padding: 4px 15px;
   color: white;
-  border-width: 1.5px;
-  border-style: solid;
-  border-color: #7939D9;
+  border-width: 0px;
   margin: 1vw;
-  font-weight: 500;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 a {
